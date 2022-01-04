@@ -5,8 +5,8 @@ WORKDIR /stremio
 ARG VERSION=4.4.142
 
 RUN apk add --no-cache wget ffmpeg
-RUN wget http://dl.strem.io/four/v${VERSION}/server.js
-RUN wget http://dl.strem.io/four/v${VERSION}/stremio.asar
+
+COPY . .
 
 EXPOSE 11470
 
