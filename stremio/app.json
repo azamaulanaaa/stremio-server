@@ -1,0 +1,13 @@
+{
+	"name": "stremio-server",
+	"description": "A server for stremio web ui",
+	"website": "https://github.com/azamaulanaaa/stremio-server",
+	"respository": "https://github.com/azamaulanaaa/stremio-server",
+	"stack": "container",
+	"formation": {
+		"web": {
+			"quantity": 1,
+			"size": "free"
+		}
+	}
+}
